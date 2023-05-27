@@ -36,8 +36,10 @@ body{
 
 .absolute{
     background-color: lightsalmon;
-    position: relative;
 }
 .absolute img{
+    width: 80px;
     position: absolute;
+    right: 20px;
+    bottom: 60px;
 }
