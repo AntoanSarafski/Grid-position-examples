@@ -62,8 +62,12 @@ body{
 /* STICKY EXAMPLE */
 .sticky{
     background-color: lightskyblue;
+    height: 500px;
+    overflow: auto;
 }
 .sticky img{
     position: sticky;
-    top:40px
+    top:0px;
+    height: 250px;
+    
 }
