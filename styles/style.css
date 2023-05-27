@@ -28,6 +28,6 @@ body{
 }
 .relative img{
     position: relative;
-    top: 30px;
-    left: 100px;
+    top: -60px;
+    left: 40px;
 }
