@@ -31,3 +31,13 @@ body{
     top: -60px;
     left: 40px;
 }
+
+/* ABSOLUTE EXAMPLE */
+
+.absolute{
+    background-color: lightsalmon;
+    position: relative;
+}
+.absolute img{
+    position: absolute;
+}
