@@ -7,15 +7,27 @@ body{
     width: 80%;
     padding: 12px;
     border: 2px dashed black;
-}
-.static{
-    background-color: lightblue;
+    margin-bottom: 24px;
 }
 .container img{
     width: 350px;
 }
+/* STATIC EXAMPLE */
+.static{
+    background-color: lightblue;
+}
+
 .static img{
     position: static;
     top: 20px;
     left: 20px;
+}
+/* RELATIVE EXAMPLE */
+.relative{
+    background-color: lightgreen;
+}
+.relative img{
+    position: relative;
+    top: 30px;
+    left: 100px;
 }
